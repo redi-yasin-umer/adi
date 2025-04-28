@@ -34,13 +34,14 @@
  ~  - PostgreSQL database
  ~  - NextAuth.js beta for authentication
  ~  - Stripe for payments
- 
- ### 2. Database and Authentication [ ]
- - [x] Set up PostgreSQL database
- - [x] Configure Prisma schema:
-   - User model
-   - Product model
-   - Category model
+ ~
+ ~### 2. Database and Authentication [ ]
+ ~
+ ~- [x] Set up PostgreSQL database
+ ~- [x] Configure Prisma schema:
+ ~  - User model
+ ~  - Product model
+ ~  - Category model
  ~  - Order model
  ~  - Review model
  ~  - Cart model
@@ -49,17 +50,24 @@
  ~  - OAuth providers (Google, GitHub)
  ~  - JWT handling
  ~  - Protected routes
- ~
- ~### 3. Core Features - Customer Side [ ]
- ~
- ~- [ ] Homepage:
- ~  - Featured products
- ~  - Categories navigation
- ~  - Search functionality
- ~  - Filters and sorting
- ~- [ ] Product pages:
- ~  - Product details
- ~  - Image gallery
+ 
+ ### 3. Core Features - Customer Side [ ]
+ 
+ - [x] Home Layout:
+   - Create `(home)` folder in `app` directory
+   - Header with logo, search bar, and navigation
+   - Footer with links and social media
+ - [ ] Homepage:
+   - banner carousel
+   - latest products
+ - [ ] Products Catalog:
+   - Sidebar with categories and filters
+   - Search results
+   - Product grid
+   - Pagination
+ - [ ] Product pages:
+   - Product details
+   - Image gallery
  ~  - Reviews and ratings
  ~  - Related products
  ~- [ ] Shopping cart:
